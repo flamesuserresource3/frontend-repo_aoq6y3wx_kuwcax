@@ -3,7 +3,37 @@
 > vite
 
 
-  VITE v5.4.20  ready in 259 ms
+  VITE v5.4.20  ready in 275 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.3.181:3000/
+7:08:10 AM [vite] warning: The character ">" is not valid inside a JSX element
+24 |              <rect x="370" y="40" width="250" height="130" rx="14" fill="#ffffff" stroke="#065f46" />
+25 |              <text x="385" y="70" fontSize="16" fontWeight="700" fill="#064e3b">profiles</text>
+26 |              <text x="385" y="98" fontSize="13" fill="#065f46">id (uuid, PK, FK -> auth.users.id)</text>
+   |                                                                                  ^
+27 |              <text x="385" y="118" fontSize="13" fill="#065f46">full_name (text)</text>
+28 |              <text x="385" y="138" fontSize="13" fill="#065f46">avatar_url (text)</text>
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/ERDiagram.jsx
+7:08:10 AM [vite] warning: The character ">" is not valid inside a JSX element
+42 |              <rect x="370" y="240" width="320" height="160" rx="14" fill="#ffffff" stroke="#065f46" />
+43 |              <text x="385" y="270" fontSize="16" fontWeight="700" fill="#064e3b">organization_members</text>
+44 |              <text x="385" y="298" fontSize="13" fill="#065f46">org_id (uuid, FK -> organizations.id)</text>
+   |                                                                                   ^
+45 |              <text x="385" y="318" fontSize="13" fill="#065f46">user_id (uuid, FK -> auth.users.id)</text>
+46 |              <text x="385" y="338" fontSize="13" fill="#065f46">role (text)</text>
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/ERDiagram.jsx
+7:08:10 AM [vite] warning: The character ">" is not valid inside a JSX element
+43 |              <text x="385" y="270" fontSize="16" fontWeight="700" fill="#064e3b">organization_members</text>
+44 |              <text x="385" y="298" fontSize="13" fill="#065f46">org_id (uuid, FK -> organizations.id)</text>
+45 |              <text x="385" y="318" fontSize="13" fill="#065f46">user_id (uuid, FK -> auth.users.id)</text>
+   |                                                                                    ^
+46 |              <text x="385" y="338" fontSize="13" fill="#065f46">role (text)</text>
+47 |              <text x="385" y="358" fontSize="13" fill="#065f46">joined_at (timestamptz)</text>
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/ERDiagram.jsx
